@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A7C53812749138C002386DC /* SeijiTanakaStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7C53802749138C002386DC /* SeijiTanakaStoryboard.storyboard */; };
+		2A7C538327491402002386DC /* SeijiTanakaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C538227491402002386DC /* SeijiTanakaViewController.swift */; };
 		A4C61904273BC79400EBF57A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C61903273BC79400EBF57A /* AppDelegate.swift */; };
 		A4C61906273BC79400EBF57A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C61905273BC79400EBF57A /* SceneDelegate.swift */; };
 		A4C61908273BC79400EBF57A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C61907273BC79400EBF57A /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A7C53802749138C002386DC /* SeijiTanakaStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SeijiTanakaStoryboard.storyboard; sourceTree = "<group>"; };
+		2A7C538227491402002386DC /* SeijiTanakaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeijiTanakaViewController.swift; sourceTree = "<group>"; };
 		A4C61900273BC79400EBF57A /* PracticeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C61903273BC79400EBF57A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4C61905273BC79400EBF57A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,7 @@
 			children = (
 				A4C61909273BC79400EBF57A /* Main.storyboard */,
 				E72569482740EF8900B3B8F2 /* Sakana.storyboard */,
+				2A7C53802749138C002386DC /* SeijiTanakaStoryboard.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -85,6 +90,7 @@
 			children = (
 				A4C61907273BC79400EBF57A /* ViewController.swift */,
 				E725694A2740EF9600B3B8F2 /* SakanaController.swift */,
+				2A7C538227491402002386DC /* SeijiTanakaViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -151,6 +157,7 @@
 				A4C6190D273BC79600EBF57A /* Assets.xcassets in Resources */,
 				A4C6190B273BC79400EBF57A /* Main.storyboard in Resources */,
 				E72569492740EF8900B3B8F2 /* Sakana.storyboard in Resources */,
+				2A7C53812749138C002386DC /* SeijiTanakaStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E725694B2740EF9600B3B8F2 /* SakanaController.swift in Sources */,
+				2A7C538327491402002386DC /* SeijiTanakaViewController.swift in Sources */,
 				A4C61908273BC79400EBF57A /* ViewController.swift in Sources */,
 				A4C61904273BC79400EBF57A /* AppDelegate.swift in Sources */,
 				A4C61906273BC79400EBF57A /* SceneDelegate.swift in Sources */,
