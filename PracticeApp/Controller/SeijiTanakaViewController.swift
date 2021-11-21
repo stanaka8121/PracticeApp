@@ -13,6 +13,8 @@ class SeijiTanakaViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("Seiji Tanaka")
 
         // Do any additional setup after loading the view.
     }
